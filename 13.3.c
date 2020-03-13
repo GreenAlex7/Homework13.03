@@ -25,7 +25,7 @@ void av(int n, int* e)
 			{
 				Bubble(&e[j], &e[j - 1]);
 			}
-			c++;
+			c=c+1;
 		}
 
 	}
